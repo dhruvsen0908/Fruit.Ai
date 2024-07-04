@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
   const userAuthentication = async () => {
     try{
       setIsLoading(true);
-      const response = await fetch("http://localhost:5000/api/auth/user",{
+      const response = await fetch("https://dhruv-technical-1.onrender.com/api/auth/user",{
         method : "GET",
         headers: {
           Authorization: authorizationToken,
@@ -58,7 +58,7 @@ export const AuthProvider = ({ children }) => {
   // to fetch the services data from the database
   const getServices = async() => {
     try{
-      const response = await fetch("http://localhost:5000/api/data/service", {
+      const response = await fetch("https://dhruv-technical-1.onrender.com/api/data/service", {
         method:"GET",
       });
       if(response.ok){
