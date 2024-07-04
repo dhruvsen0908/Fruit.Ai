@@ -11,7 +11,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 
 // handling cors policy issue 
 const corsOption = {
-    origin:"http://localhost:5173",
+    origin:"https://dhruv-technical.vercel.app/",
     methods:"GET ,POST ,PUT ,DELETE ,PATCH , HEAD",
     credentials: true,
 }
