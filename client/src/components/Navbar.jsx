@@ -9,15 +9,16 @@ export const Navbar = () => {
         <header>
             <div className="container">
                 <div className="logo-brand">
-                    <a href="/">DhruvTechnical</a>
+                    <a href="/">Fruit.Ai</a>
                 </div>
 
                 <nav>
                     <ul>
                         <l1><NavLink to="/"> Home </NavLink></l1>
                         <l1><NavLink to="/about"> About </NavLink></l1>
-                        <l1><NavLink to="/service">Services</NavLink></l1>
-                        <l1><NavLink to="/contact"> Contact</NavLink></l1>
+                        <l1><NavLink to="/service">FAQs</NavLink></l1>
+                        <l1><NavLink to="/contact"> Chat.</NavLink></l1>
+                        <l1><NavLink to="/google"> GoogleTranslate</NavLink></l1>
 
                         { isLoggedIn ? ( 
                             <l1><NavLink to="/logout"> Logout</NavLink></l1> ): (

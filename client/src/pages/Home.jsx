@@ -1,4 +1,4 @@
-import { Analytics } from "../components/Analytics";
+// import { Analytics } from "../components/Analytics";
 
 export const Home = () => {
     return (
@@ -7,58 +7,52 @@ export const Home = () => {
                 <section className="section-hero">
                     <div className="container grid grid-two-cols">  
                         <div className="hero-content">  
-                            <p>We are the World Best IT Company</p>
-                            <h1>Welcome to Dhruv Technical</h1>
+               
+                            <h1>Welcome to Fruit.Ai</h1>
                             <p>
-                                Are you ready to take your business to the next level with
-                                cutting-edge IT solutions? Look no further! At Thapa Technical,
-                                we specialize in providing innovative IT services and solutions
-                                tailored to meet your unique needs.
+                            Whether you are looking to discover new fruits, understand their nutritional values, or find the perfect 
+                            fruit for your diet, our AI-driven chatbot is here to assist. We provide personalized fruit recommendations
+                             tailored to your health needs, making it easier for you to integrate the best fruits into your daily routine.
                             </p>
                             <div className="btn-group">  
                                 <a href="/contact">
-                                    <button className="btn">Connect now</button>
+                                    <button className="btn">Chat.</button>
                                 </a>
                                 <a href="/service">
-                                    <button className="btn secondary-btn">Learn more</button>
+                                    <button className="btn secondary-btn">FAQs</button>
                                 </a>
                             </div>
                         </div>
                         {/* hero image  */}
                         <div className="hero-image"> 
-                            <img src="/images/home.png" alt="coding together" width="500" height="500" />
+                            <img src="/images/homepic.jpg" alt="coding together" width="500" height="500" />
                         </div>
                     </div>
                 </section>
             </main>
 
-        {/* 2nd section */}
-        <Analytics />
-
-        {/* 3rd section */}
         <section className="section-hero">
                 <div className="container gird grid-two-cols">
 
                     {/* hero images */}
                     <div className="hero-image">  
-                            <img src="/images/design.png" alt="coding together" width="500" height="500" />
+                            <img src="/images/picturehome.jpg" alt="fruits" width="500" height="500" />
                     </div>
                     
                     <div className="hero-content">  
                         <p>We are here to help you</p>
                         <h1>Get Started Today</h1>
                         <p>
-                        Ready to take the first step towards a more efficient and secure
-                        IT infrastructure? Contact us today for a free consultation and
-                        lets discuss how Thapa Technical can help your business thrive in
-                        the digital age.
+                        Fruits play a crucial role in maintaining a healthy and balanced diet. They are rich sources of essential vitamins,
+                         minerals, and antioxidants that support overall well-being. Regular consumption of fruits can boost the immune system, 
+                         improve digestion, and reduce the risk of chronic diseases like heart disease, stroke, and certain cancers. 
                         </p>
                         <div className="btn btn-group">  
-                            <a href="/contact">
-                                <button className="btn">Connect now</button>
+                            <a href="/google">
+                                <button className="btn">Google Translate</button>
                             </a>
-                            <a href="/service">
-                                <button className="btn secondary-btn">Learn more</button>
+                            <a href="/about">
+                                <button className="btn secondary-btn">ABOUT</button>
                             </a>
                         </div>
                     </div>
