@@ -10,13 +10,13 @@ const connectDB = require("./utils/db");
 const errorMiddleware = require("./middlewares/error-middleware");
 
 // handling cors policy issue 
-const corsOption = {
-    origin:"http://localhost:5173",
-    methods:"GET ,POST ,PUT ,DELETE ,PATCH , HEAD",
-    credentials: true,
-}
+// const corsOption = {
+//     origin:"",
+//     methods:"GET ,POST ,PUT ,DELETE ,PATCH , HEAD",
+//     credentials: true,
+// }
 
-app.use(cors(corsOption));
+app.use(cors());
 
 app.use(express.json());// To use json , add Express middleware that 
 // parses incoming req bodies with JSON payloads.
